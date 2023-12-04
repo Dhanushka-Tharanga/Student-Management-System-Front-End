@@ -1,0 +1,89 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" ,sans-serif;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background:#fff;
+}
+
+.register-form{
+  display: inline-block;
+  height: 600px;
+  margin: 10px;
+  width: 50%;
+  background-color: #71b7e6;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  align-items: stretch;
+}
+
+
+.registrationform-structure{
+  display:grid;
+  height: 500px;
+  width: 100%;
+  background-color: #71b7e6;
+  padding: 10px;
+}
+
+.registerButton, .clearButton{
+  background-color: #b84fb8;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  max-height:45px; 
+  max-width: 110px;
+  border: none;
+  border-radius: 15px;
+}
+
+.details{
+  position: left;
+  left: 200px;
+  top: -29px;
+  border-radius: 6px;
+  line-height: 30px;
+  padding: 0 22px;
+  font-size: 16px;
+}
+
+
+
+span{
+  width: 100px;
+  display: inline-block;
+}
+
+.view-form{
+  display: ininline-block;
+  height: 600px;
+  width: 50%;
+  padding: 10px;
+  background: linear-gradient(135deg,#e6cb71,#ca0d1c);
+  margin: 10px;
+  text-align: center;
+  float:center;
+}
+
+.student-table{
+  margin-left:auto;
+  margin-right: auto;
+  width: 500px;
+  border: 2px;
+  overflow: visible;
+  box-shadow: 0 0 20px rgba(0,0,0,0,1);
+}

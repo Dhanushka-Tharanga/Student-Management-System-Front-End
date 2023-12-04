@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="register-form">
+      <form action="#">
+        <div class ="title"><h1> Student Registration Form </h1></div>
+            <div class="registrationform-structure">
+
+              <div class ="title"> Student Information </div>
+
+                <div class="input-box" >
+                  <span class="details">Name</span>
+                  <input type="text" id="student-name" placeholder="Enter Student Name" >
+                </div>
+                <div class="input-box" >
+                  <span class="details">Age</span>
+                  <input type="text" id="student-age" placeholder="Enter Student Age" >
+                </div>
+                <div class="input-box" >
+                  <span class="details">Contact</span>
+                  <input type="text" id="student-contact" placeholder="Enter Student Contact" >
+                </div>
+
+              <div class ="title"> Guardian Information </div>
+      
+                <div class="input-box" >
+                  <span class="details">Name</span>
+                  <input type="text" id="guardian-name" placeholder="Enter Guardian Name" >
+                </div>
+                <div class="input-box" >
+                  <span class="details">Address</span>
+                  <input type="text" id="guardian-address" placeholder="Enter Guardian Address" >
+                </div>
+                <div class="input-box" >
+                  <span class="details">Contact</span>
+                  <input type="text" id="guardian-contact" placeholder="Enter Guardian Contact" >
+                </div>
+        
+                <div class="button"> 
+                  <input type="submit" id="register-button" value="Register" class="registerButton">
+        
+                  <input type="submit" id="clear-button"   value="Clear" class="clearButton">
+                </div>
+            </div>
+      </form>
+  </div>
+
+
+  <div class="view-form">
+    <form >
+    
+        <div class ="title-view-form"> <h1>Student Viewer</h1> </div>
+
+        <table border="3" id="student-list" class="student-table"></table>
+    
+        <button id="btn-load-student">Show Students Details </button>
+    
+    </form>
+  </div>
+    <script src="Assignment.js"></script>
+</body>
+</html>
